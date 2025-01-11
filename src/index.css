@@ -13,6 +13,7 @@
 :root {
   --primary-color: #030516;
   --secondary-color: #1f3449;
+  --text-color: white;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--text-color);
 }
 
 .btn:hover + * {border: 2px dotted #006edc}
