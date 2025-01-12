@@ -1,4 +1,5 @@
 import HeroComponent from "./HeroComponent";
+import SparkSportlight from "./SparkSportlight";
 import TransformativeStories from "./TransformativeStories";
 
 const Home = () => {
@@ -11,6 +12,9 @@ const Home = () => {
       {/* Transformative Stories' Section */}
       <TransformativeStories />
       
+      {/* Spark Sportlight Section */}
+      <SparkSportlight />
+
     </>
   )
 }

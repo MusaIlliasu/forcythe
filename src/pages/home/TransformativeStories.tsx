@@ -1,10 +1,10 @@
+import { useEffect, useRef, useState } from "react";
 // Logos
 import stacksLogo from "../../assets/images/tran-stories/starks.svg";
 import executiveProsLogo from "../../assets/images/tran-stories/executive-pros-logo.svg";
 import stacaiLogo from "../../assets/images/tran-stories/stacai.svg";
 import iwariaLogo from "../../assets/images/tran-stories/iwaria.svg";
 import beaupreneurLogo from "../../assets/images/tran-stories/beaupreneur.svg";
-import { useEffect, useRef, useState } from "react";
 
 // Images
 import starkImg from "../../assets/images/tran-stories/imgs/john.svg";
