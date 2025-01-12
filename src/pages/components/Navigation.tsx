@@ -5,7 +5,7 @@ import { List } from "@phosphor-icons/react";
 const Navigation = () => {
 
   return (
-    <div className="w-full h-[70px] flex justify-center items-center sticky top-0 left-0 backdrop-blur py-2 px-[5%] z-40">
+    <div className="w-full h-[80px] flex justify-center items-center sticky top-0 left-0 backdrop-blur-xl py-2 px-[5%] z-40">
         <div className="w-full flex justify-between items-center gap-4">
             <div className="flex justify-start items-center gap-10 lg:gap-20">
                 <Link to="/" className="inline-block">
