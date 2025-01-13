@@ -1,3 +1,4 @@
+import Articles from "./Articles";
 import HeroComponent from "./HeroComponent";
 import ProductInnovation from "./ProductInnovation";
 import SparkSportlight from "./SparkSportlight";
@@ -18,6 +19,9 @@ const Home = () => {
 
       {/* Product Innovation Section */}
       <ProductInnovation />
+
+      {/* Article Section */}
+      <Articles />
     </>
   )
 }

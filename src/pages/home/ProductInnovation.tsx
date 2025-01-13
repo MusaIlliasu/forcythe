@@ -17,7 +17,7 @@ const ProductInnovation = () => {
     ];
 
     return (
-        <div style={{background: "linear-gradient(to top, rgb(12, 38, 69) 30%, rgb(3, 5, 22) 100%)"}} className="py-10 md:py-20 ">
+        <div style={{background: "linear-gradient(to top, rgb(12, 38, 69) -20%, rgb(3, 5, 22) 100%)"}} className="pt-10 md:pt-20 ">
             <div className="px-[5%] mb-24 md:mb-36">
                 <h2 className="w-full font-semibold text-center text-[#b3d0f2] text-4xl md:mx-auto mb-10">Your best call for B2B/B2C product innovation</h2>
 
@@ -38,7 +38,7 @@ const ProductInnovation = () => {
             </div>
 
             <div className="w-full md:max-w-[80%] h-[250px] md:h-[400px] flex justify-center items-end mx-auto bg-[url('/src/assets/images/arc.svg')] bg-top bg-contain bg-no-repeat">
-                <div className="w-[55%] md:w-[50%]">
+                <div className="w-[55%] md:max-w-[500px]">
                     <h1 className="font-semibold text-center text-xl md:text-3xl mb-4 md:mb-12">We build solutions that help <span className="text-blue-500">businesses</span> of all sizes to <span className="text-blue-500">scale</span></h1>
 
                     <div className="flex justify-center items-center gap-8">
