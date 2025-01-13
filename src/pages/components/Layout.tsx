@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 const Layout = ({children}: PropsWithChildren) => {
 
@@ -7,6 +8,7 @@ const Layout = ({children}: PropsWithChildren) => {
     <>
         <Navigation />
         {children}
+        <Footer />
     </>
   )
 }
