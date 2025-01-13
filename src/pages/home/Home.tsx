@@ -1,6 +1,7 @@
 import Articles from "./Articles";
 import HeroComponent from "./HeroComponent";
 import ProductInnovation from "./ProductInnovation";
+import Scale from "./Scale";
 import SparkSportlight from "./SparkSportlight";
 import TransformativeStories from "./TransformativeStories";
 
@@ -22,6 +23,9 @@ const Home = () => {
 
       {/* Article Section */}
       <Articles />
+
+      {/* Business Scale Section */}
+      <Scale />
     </>
   )
 }
