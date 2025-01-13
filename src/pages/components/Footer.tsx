@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { siteMapLinks } from "./stie-map-links";
 
+import logo from "../../assets/logo/logo.svg";
+
 const Footer = () => {
   const [termsAgreement, setTermsAgreement] = useState(false);
 
@@ -29,7 +31,7 @@ const Footer = () => {
         {/* About Forcythe */}
         <div>
           <Link to="/" className="inline-block w-[100px] mb-4">
-            <img src="/src/assets/logo/logo.svg" alt="Logo" className="w-full h-full object-cover" />
+            <img src={logo} alt="Logo" className="w-full h-full object-cover" />
           </Link>
 
           <p className="text-gray-400 mb-8">

@@ -4,6 +4,8 @@ import { List } from "@phosphor-icons/react";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
 
+import logo from "../../assets/logo/logo.svg";
+
 const Navigation = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
@@ -19,7 +21,7 @@ const Navigation = () => {
           <div className="w-full flex justify-between items-center gap-4">
               <div className="flex justify-start items-center gap-10 lg:gap-20">
                   <Link to="/" className="inline-block">
-                    <img src="/src/assets/logo/logo.svg" alt="Logo" className="w-full h-full object-cover" />
+                    <img src={logo} alt="Logo" className="w-full h-full object-cover" />
                   </Link>
 
                   <div className="hidden md:flex justify-start items-center gap-4">
