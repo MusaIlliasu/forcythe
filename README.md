@@ -1,5 +1,7 @@
 # Forcythe Landing Page
 
+## [Live Demo](https://forcythe-ruddy.vercel.app/)
+
 ## Overview
 We build products that shape a better future.
 
@@ -26,5 +28,6 @@ npm run dev
 3. Open your browser and visit the URL displayed in the terminal.
 
 ### Future Improvements
-- Animations
+- One of the future improvements is to add animations.
+
 
