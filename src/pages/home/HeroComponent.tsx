@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import Marquee from "react-fast-marquee";
 
 import image1 from "../../assets/images/success-in-motion/img-1.svg";
 import image2 from "../../assets/images/success-in-motion/img-2.svg";
@@ -24,16 +25,19 @@ const HeroComponent = () => {
                 </div>
 
                 <h2 className="font-semibold text-center text-4xl md:text-5xl">Success in <span className="text-blue-500">Motion</span>  – Our clients’ journey</h2>
-                
             </div>
-        
-            <div className="w-full flex justify-start items-start gap-10 whitespace-nowrap overflow-x-hidden">
+            
             {
-                images.map((image, index) => (
-                <img key={index} src={image} alt="Image" className="w-full h-full object-cover" />
+                [1, 2].map(num => (
+                    <Marquee key={num} play direction={num === 2 ? "right" : "left"} >
+                        {
+                            images.map((image, index) => (
+                                <img key={index} src={image} loading="lazy" alt="Image" className="w-full h-full object-cover" />
+                            ))
+                        }
+                    </Marquee>
                 ))
             }
-            </div>
         </>
     )
 }
